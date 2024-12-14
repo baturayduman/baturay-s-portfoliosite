@@ -1,0 +1,50 @@
+/* Genel stil */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Arkaplan yalnızca Currency sayfası için geçerli olacak */
+.currency-page {
+    background-image: url('C:/Users/90543/Desktop/projexa/viteprojectx/src/images/arkaplan.jpg');
+}
+
+/* Menü Stili */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Diğer stil ayarları */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
